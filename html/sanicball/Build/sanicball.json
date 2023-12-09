@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "sanicball.data.unityweb",
+"asmCodeUrl": "sanicball.asm.code.unityweb",
+"asmMemoryUrl": "sanicball.asm.memory.unityweb",
+"asmFrameworkUrl": "sanicball.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}

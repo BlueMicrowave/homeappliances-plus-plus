@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Appliances</title>
+    <title>Home Appliances - Games</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
     <style>
@@ -56,6 +56,20 @@
         section {
             text-align: center;
             padding: 2em;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .game {
+            width: 45%;
+            margin-bottom: 2em;
+        }
+
+        .game img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
         }
 
         footer {
@@ -78,15 +92,32 @@
 
     <nav>
         <a href="Index.html">Welcome & Updates</a>
-        <a href="games.html">Math Games</a>
+        <a href="math.html">Math Games</a>
         <a href="#lessons">Lessons</a>
         <a href="#suggest">Suggest</a>
         <a href="#about">About</a>
     </nav>
 
     <section>
-        <h2>Welcome to Home Appliances</h2>
-        <p>A student project site with a variety of games and educational content.</p>
+        <div class="game">
+            <h2>Game 1</h2>
+            <img src="path/to/game1-image.jpg" alt="Game 1 Image">
+        </div>
+
+        <div class="game">
+            <h2>Game 2</h2>
+            <img src="path/to/game2-image.jpg" alt="Game 2 Image">
+        </div>
+
+        <div class="game">
+            <h2>Game 3</h2>
+            <img src="path/to/game3-image.jpg" alt="Game 3 Image">
+        </div>
+
+        <div class="game">
+            <h2>Game 4</h2>
+            <img src="path/to/game4-image.jpg" alt="Game 4 Image">
+        </div>
     </section>
 
     <footer>
@@ -99,6 +130,5 @@
             nav.style.width = nav.style.width === '200px' ? '0' : '200px';
         }
     </script>
-
 </body>
 </html>

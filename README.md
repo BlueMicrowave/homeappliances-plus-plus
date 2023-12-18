@@ -1,4 +1,12 @@
 # homeappliances-plus-plus
-A reboot of bluemicrowave.github.io now with an educational side to help encourage classmates to learn while also having fun
+random shit that i made with 2 other fellas
+just a cleaning up of bluemicrowave
+you know the drill
+go fun
+play fun
+do fun
+fun.
+ye
+
 
 this project was funded by viewers like you.

@@ -4,96 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Appliances</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
     <style>
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #1a1a1a;
-            color: #fff;
+        .right {
+          float: right;
+          margin-left: 1em;
         }
-        header {
-            background-color: #111;
-            color: #fff;
-            text-align: center;
-            padding: 1em;
-            border-bottom: 2px solid #333;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+        .left {
+          float: left;
+          margin-right: 1em;
         }
-
-        .menu-icon {
-            font-size: 1.5em;
-            cursor: pointer;
+        .center {
+          display: block;
+          margin-right: auto;
+          margin-left: auto;
+          text-align: center;
         }
-
-        nav {
-            display: flex;
-            flex-direction: column;
-            background-color: #333;
-            padding: 0.5em;
-            width: 0;
-            overflow: hidden;
-            transition: width 0.3s ease;
+        .small {
+          max-width: 60%;
+          height: auto;
+          }
+          img {
+          max-width: 100%;
+          height: auto;
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
         }
-
-        nav a {
-            text-decoration: none;
-            color: #fff;
-            padding: 0.5em 1em;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
+            body {
+                background-image: url('background.png');
+                text-align: center;
+                padding-top: 1.5em;
+                line-height: 1.5em;
+                font-family: "Gaegu", sans-serif;
+          font-weight: 500;
+          font-style: normal;
+          font-size: 1.6em;
         }
-
-        nav a:hover {
-            background-color: #555;
+        p{font-size: xx-large;}
+          #container{
+          height: 90%;
+          max-height: 1000px;
+          margin: 2em auto;
+          width: 90%;
+            max-width: 700px;
+            background-color: rgb(0, 201, 151);
+          color: #fffb00; 
+          outline-color: #fbff00;
+          outline-style: ridge;
+          outline-width: 4px;
+          outline-offset: 0;
         }
-
-        section {
-            text-align: center;
-            padding: 2em;
-        }
-
-        footer {
-            background-color: #111;
-            color: #fff;
-            text-align: center;
-            padding: 1em;
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+        
+        
+        
+        </style>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gaegu&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <span class="menu-icon" onclick="toggleNav()">&#9776; Menu</span>
+    <div id="container">
         <h1>Home Appliances</h1>
-    </header>
 
-    <nav>
-        <a href="index.html">Welcome & Updates</a>
-        <a href="games.html">Math Games</a>
-        <a href="https://forms.gle/N4YLW1mBa2EZvrPVA">Suggest</a>
-        <a href="#about">About</a>
-    </nav>
-    <section>
-        <h2>Welcome to Home Appliances</h2>
-        <p>I am going to explode.</p>
-    </section>
+        <h2>This site is no longer be hosted by me, do not ask for it to return. </h2>
+        <h2>sorry fellas, i had to do it.</h2>
+        <h2>if permitted, you can use my friends site by clicking this image </h2>
+        <a target="_blank" href="https://fortnite.com"><img alt="sorry mida wooten " src="big_peepy.png" style="image-rendering: pixelated"></a>
+        <h4>womp womp</h4>
 
-    <script>
-        function toggleNav() {
-            const nav = document.querySelector('nav');
-            nav.style.width = nav.style.width === '200px' ? '0' : '200px';
-        }
-    </script>
-    <footer>
-        <p>poggers.</p>
-    </footer>
 </body>
 </html>
